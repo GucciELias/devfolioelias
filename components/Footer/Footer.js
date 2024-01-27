@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="w-full h-full pt-32">
           <div className="section-container flex flex-col h-full justify-end z-10 items-center py-12">
             <h1 className="font-medium text-3xl md:text-4xl text-center seq">
-              Feel free to connect on social media.
+              Restons connecté ensemble !
             </h1>
             <div className="text-center seq">
               <Profiles />
@@ -59,13 +59,13 @@ const Footer = () => {
               </Button>
             </div>
             <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
-              Developed with{" "}
+              Developpé par{" "}
               <button onClick={handleClick} className="link heart-btn">
                 <span role="img" aria-label="heart" className="animate-pulse">
-                  ❤️
+                  Elias Huc
                 </span>
               </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
+               <span className="text-white">Shubh Porwal</span>
             </p>
           </div>
         </div>
