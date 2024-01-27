@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet BienVu</title>
+    <style>
+        body {
+            background-color: #120e16;
+            color: white; /* Pour que le texte soit visible sur fond noir */
+            text-align: center; /* Centre le contenu */
+            margin: 0; /* Enlève les marges par défaut */
+            padding: 0 50px; /* Ajoute une marge intérieure à droite et à gauche */
+            cursor: none; /* Masque le curseur de la souris par défaut */
+
+        }
+
+        .dev-text {
+            color: rgba(255, 255, 255, 0.1); /* Couleur gris clair avec opacité */
+            font-size: 120px; /* Taille de la police */
+            position: fixed; /* Position fixe */
+            right: 40px; /* À droite de la page */
+            top: 600px; /* Un peu en haut */
+            transform: rotate(90deg); /* Rotation de 90 degrés */
+            transform-origin: right top; /* Origine de la rotation */
+            z-index: -1; /* Arrière-plan */
+            font-family: 'fonttext', fallback-font, sans-serif; /* Remplacez 'MaPolicePersonnalisée' par le nom de votre police */
+
+        }
+
+        .header-container {
+            margin-top: 200px; /* Espacement en haut */
+            margin-bottom: 200px; /* Espacement en bas */
+            width: 80%; /* Réduit la largeur du conteneur du texte */
+            margin-left: auto; /* Centre le conteneur */
+            margin-right: auto; /* Centre le conteneur */
+        }
+
+        @font-face {
+            font-family: 'fonttext';
+            src: url('public/htmlprojet/font/Salih Kizilkaya - SK Reykjavik Rounded Regular.ttf') format('ttf'),
+            url('public/htmlprojet/font/Salih Kizilkaya - SK Reykjavik Rounded Regular.ttf') format('ttf');
+        }
+
+        .header-text {
+            font-size: 35px; /* Taille de la police */
+            text-align: justify; /* Justifie le texte */
+            text-justify: inter-word; /* Espacement uniforme entre les mots */
+            font-family: 'fonttext', fallback-font, sans-serif;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #8b4be1, 0 0 15px #8b4be1; /* Effet de brillance violette */
+
+
+
+
+        }
+
+        .title-gradient {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 70px;
+            font-family: 'fonttext', sans-serif, bold;
+            background-color: #8b4be1;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: 1001; /* Pour s'assurer qu'il soit au-dessus des autres éléments */
+            margin-bottom: 30px;
+
+        }
+
+        .image-container {
+            display: flex; /* Utilise Flexbox pour l'alignement */
+            justify-content: center; /* Centre les éléments horizontalement */
+            flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+            gap: 20px;
+
+
+        }
+
+        .image-container img {
+            width: 200px; /* Largeur des images */
+            height: 400px; /* Hauteur des images */
+            margin-bottom: 10px; /* Espacement en dessous de chaque image */
+            transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition fluide pour l'ombre et la transformation */
+            will-change: box-shadow, transform; /* Optimisation des performances pour l'animation */
+        }
+
+        .image-container img:hover {
+            box-shadow: 0 0 15px 5px #8b4be1; /* Ombre externe pour l'effet de brillance */
+            transform: scale(1.03); /* Légère augmentation de la taille pour le focus */
+        }
+
+        /* Assure que seulement deux images soient affichées par ligne */
+        @media screen and (min-width: 520px) {
+            .image-container img {
+                flex-basis: calc(50% - 20px); /* Ajuste la base flexible pour les images */
+            }
+        }
+
+        .cursor {
+            width: 18px; /* Taille augmentée du point blanc */
+            height: 18px; /* Taille augmentée du point blanc */
+            border-radius: 100%;
+            background: #fff;
+            position: fixed;
+            pointer-events: none;
+            z-index: 1000;
+            mix-blend-mode: difference;
+        }
+
+        .cursorFollower {
+            width: 38px; /* Taille augmentée du cercle */
+            height: 38px; /* Taille augmentée du cercle */
+            border-radius: 100%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.027);
+            transform: translate(-10px, -10px);
+        }
+
+        .highlight {
+            color: #8b4be1;
+        }
+
+        .video-container {
+            text-align: center; /* Centre la vidéo */
+            margin-top: 20px; /* Ajoute un espace entre les images et la vidéo */
+            margin-bottom: 100px;
+        }
+
+        .video-container video {
+            width: 80%; /* Ajustez la largeur selon vos besoins */
+            height: auto; /* Maintient le ratio d'aspect */
+        }
+
+    </style>
+</head>
+<body>
+<div class="title-gradient">HELPORT</div>
+
+
+<div class="header-container">
+    <div class="header-text">
+        HelpOrt est une <span class="highlight">webApp</span> développée dans le cadre de la formation.
+        Elle vise à proposer aux étudiants la possibilite de demander des cours de soutien dans différentes matières en fonction
+        de leurs classes. Ces cours peuvent eux-même être donnés par des étudiants de classe supérieure. Développée en <span class="highlight">PHP</span>
+        et <span class="highlight">Symfony</span>.
+    </div>
+</div>
+<div class="image-container">
+    <img src="imgs/helport1.png" alt="Image 1">
+    <img src="imgs/helport2.png" alt="Image 2">
+    <img src="imgs/helport3.png" alt="Image 3">
+    <img src="imgs/helport4.png" alt="Image 4">
+</div>
+
+<div class="video-container">
+    <video autoplay loop muted>
+        <source src="/htmlprojet/vds/helportprojet.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="dev-text">HELPORT</div>
+
+
+<div class="cursor"></div>
+<div class="cursorFollower"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const cursor = document.querySelector('.cursor');
+        const follower = document.querySelector('.cursorFollower');
+        let mouseX = 0, mouseY = 0, cursorX = 0, cursorY = 0, followerX = 0, followerY = 0;
+
+        function mouseCoords(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        }
+
+        function animate() {
+            cursorX += (mouseX - cursorX) / 5;
+            cursorY += (mouseY - cursorY) / 5;
+            followerX += (mouseX - followerX) / 10;
+            followerY += (mouseY - followerY) / 10;
+
+            cursor.style.left = cursorX - (cursor.clientWidth / 2) + 'px';
+            cursor.style.top = cursorY - (cursor.clientHeight / 2) + 'px';
+
+            follower.style.left = followerX - (follower.clientWidth / 2) + 'px';
+            follower.style.top = followerY - (follower.clientHeight / 2) + 'px';
+
+            requestAnimationFrame(animate);
+        }
+
+        document.addEventListener('mousemove', mouseCoords);
+
+        animate(); // Démarre l'animation
+    });
+</script>
+
+
+</body>
+</html>
