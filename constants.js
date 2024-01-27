@@ -89,6 +89,7 @@ export const SKILLS = {
     "python",
     "nodejs",
     "webpack",
+    "php",
   ],
 
   librariesAndFrameworks: [
@@ -119,7 +120,7 @@ export const PROJECTS = [
     description: "Web App réalisé pendant la formation",
     gradient: ["#000066", "#6699FF"],
     url: "/htmlprojet/helport.html",
-    tech: ["phplogo", "html", "symfony", "javascript", "css"],
+    tech: ["php", "html", "symfony", "javascript", "css"],
   },
   {
     name: "WebApp Casino",
