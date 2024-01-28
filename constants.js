@@ -2,11 +2,11 @@ export const METADATA = {
   author: "Elias Huc",
   title: "Portfolio | Elias Huc",
   description:
-      "Shubh Porwal is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
-  siteUrl: "https://www.shubhporwal.me/",
+      "Elias Huc is a Frontend Developer from France, interested in crafting beautiful and functional applications.",
+  siteUrl: "https://devfolioelias.vercel.app/",
   twitterHandle: "@shubh731",
   keywords: [
-    "Shubh Porwal",
+    "Elias Huc",
     "Frontend Developer",
     "Web Developer",
     "React Native Developer",
@@ -17,8 +17,8 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-      "/public/preview.png",
-  language: "English",
+      "https://i.imgur.com/vyh55SS.png",
+  language: "French",
 };
 
 export const CV_LINK = "/pdf/cvelias.pdf";
