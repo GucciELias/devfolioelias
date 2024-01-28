@@ -17,7 +17,7 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-      "https://res.cloudinary.com/dywdhyojt/image/upload/v1690572126/preview.png",
+      "/public/preview.png",
   language: "English",
 };
 
