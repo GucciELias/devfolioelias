@@ -65,7 +65,8 @@ const Footer = () => {
                   Elias Huc
                 </span>
               </button>{" "}
-               <span className="text-white">Shubh Porwal</span>
+               <span className="text-white"></span>
+              <p>Marla &#10084;</p>
             </p>
           </div>
         </div>

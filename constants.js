@@ -105,15 +105,6 @@ export const SKILLS = {
 export const PROJECTS = [
 
   {
-    name: "Bibliotheque BienVu",
-    image: "/projects/bvlogo.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Developpement d'un index pour gerer des clients et des prestataires",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "/htmlprojet/bienvu.html",
-    tech: ["java", "mysql"],
-  },
-  {
     name: "HelpOrt",
     image: "/projects/helport.webp",
     blurImage: "/projects/blur/medium-blur.webp",
@@ -122,6 +113,17 @@ export const PROJECTS = [
     url: "/htmlprojet/helport.html",
     tech: ["php", "html", "symfony", "javascript", "css"],
   },
+
+  {
+    name: "Bibliotheque BienVu",
+    image: "/projects/bvlogo.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "Developpement d'un index pour gerer des clients et des prestataires",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "/htmlprojet/bienvu.html",
+    tech: ["java", "mysql"],
+  },
+
   {
     name: "WebApp Casino",
     image: "/projects/inshorts.webp",
@@ -138,15 +140,7 @@ export const PROJECTS = [
 
 export const COMPANY = [
 
-  {
-    name: "Bureau Bien Vu",
-    image: "/projects/logobienvu.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "STAGE",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "/htmlcompany/bienvucompany.html",
-    tech: [],
-  },
+
   {
     name: "Alten",
     image: "/projects/alten.webp",
@@ -158,8 +152,18 @@ export const COMPANY = [
   },
 
   {
+    name: "Bureau Bien Vu",
+    image: "/projects/bvlogo.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "STAGE",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "/htmlcompany/bienvucompay.html",
+    tech: [],
+  },
+
+  {
     name: "...",
-    image: "/work/pointinte.png",
+    image: "/projects/pi.png",
     blurImage: "/projects/blur/medium-blur.webp",
     description: "ALTERNANCE",
     gradient: ["#000066", "#6699FF"],
