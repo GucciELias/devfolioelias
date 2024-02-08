@@ -89,16 +89,14 @@ export const SKILLS = {
     "python",
     "nodejs",
     "webpack",
-    "php",
   ],
 
   librariesAndFrameworks: [
     "react",
     "nextjs",
-    "chakra-ui",
     "symfony",
   ],
-  databases: ["mysql","mariadb"],
+  databases: ["mysql","dockersvg"],
   other: ["git"],
 };
 
@@ -111,7 +109,7 @@ export const PROJECTS = [
     description: "Web App réalisé pendant la formation",
     gradient: ["#000066", "#6699FF"],
     url: "/htmlprojet/helport.html",
-    tech: ["php", "html", "symfony", "javascript", "css"],
+    tech: ["php", "html", "symfony", "javascript", "dockersvg"],
   },
 
   {
@@ -121,7 +119,7 @@ export const PROJECTS = [
     description: "Developpement d'un index pour gerer des clients et des prestataires",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "/htmlprojet/bienvu.html",
-    tech: ["java", "mysql"],
+    tech: ["java", "mysql","dockersvg"],
   },
 
   {
