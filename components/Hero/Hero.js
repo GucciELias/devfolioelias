@@ -106,7 +106,7 @@ const Hero = () => {
               Mon CV
             </Button>
             <Button href={TABLE_LINK} download classes="link" type="primary">
-              Tableau de compétence
+              Tableau de compétences
             </Button>
           </div>
 

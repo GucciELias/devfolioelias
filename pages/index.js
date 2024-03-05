@@ -73,11 +73,11 @@ export default function Home() {
                   <About1 clientHeight={clientHeight} />
                   <Skills />
                   <About2 clientHeight={clientHeight} />
-                  <div style={{ marginBottom: '280px' }}>
-                    <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
-                  </div>
                   <div>
                     <Work clientWidth={clientWidth} />
+                  </div>
+                  <div style={{ marginBottom: '280px' }}>
+                    <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
                   </div>
                   <Collaboration clientHeight={clientHeight} />
                   <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>

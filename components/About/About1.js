@@ -77,10 +77,10 @@ const About1 = ({ clientHeight }) => {
             Baccalauréat obtenu en 2017.
           </span>
             <span className="about-2 leading-tight">
-             DUT audiovisuel complété en 2019.
+             BTS audiovisuel complété en 2019.
           </span>
             <span className="about-3 leading-tight">
-            Expérience professionnelle variée pendant 2 ans.
+            Expériences professionnelles variées pendant 2 ans.
           </span>
             <span className="about-4 leading-tight">
             Réorientation par passion et poursuite d&apos;un BTS SIO.
