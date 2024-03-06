@@ -124,7 +124,7 @@ export const PROJECTS = [
 
   {
     name: "WebApp Casino",
-    image: "/projects/inshorts.webp",
+    image: "/projects/imagecasino.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
         "Projet personnel de WebApp de Casino en ligne",
