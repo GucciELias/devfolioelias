@@ -23,7 +23,7 @@ export const METADATA = {
 
 export const CV_LINK = "/pdf/cvelias.pdf";
 
-export const TABLE_LINK = "/pdf/tableaucomp.pdf";
+export const TABLE_LINK = "/pdf/tableaucompetence.pdf";
 
 
 export const MENULINKS = [
