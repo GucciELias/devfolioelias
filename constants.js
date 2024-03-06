@@ -21,7 +21,7 @@ export const METADATA = {
   language: "French",
 };
 
-export const CV_LINK = "/pdf/cvelias.pdf";
+export const CV_LINK = "/pdf/cvelias2.pdf";
 
 export const TABLE_LINK = "/pdf/tableaucompetence.pdf";
 
