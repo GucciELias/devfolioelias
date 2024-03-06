@@ -38,7 +38,7 @@ const About2 = ({ clientHeight }) => {
               ref={quoteRef}
               className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
           >
-            J&apos;ai déja participé à de nombreux <span className="about-3 font-bold">projet</span>
+            Quelles sont mes <span className="about-3 font-bold">experience ?</span>
           </h1>
         </div>
         <style jsx global>{`
