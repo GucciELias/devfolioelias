@@ -138,6 +138,15 @@ export const PROJECTS = [
 
 export const COMPANY = [
 
+  {
+    name: "Bureau Bien Vu",
+    image: "/projects/bvlogo.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "STAGE",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "/htmlcompany/bienvucompay.html",
+    tech: [],
+  },
 
   {
     name: "Alten",
@@ -149,15 +158,7 @@ export const COMPANY = [
     tech: [],
   },
 
-  {
-    name: "Bureau Bien Vu",
-    image: "/projects/bvlogo.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "STAGE",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "/htmlcompany/bienvucompay.html",
-    tech: [],
-  },
+
 
   {
     name: "...",
