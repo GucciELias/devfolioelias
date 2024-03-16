@@ -102,15 +102,7 @@ export const SKILLS = {
 
 export const PROJECTS = [
 
-  {
-    name: "HelpOrt",
-    image: "/projects/helport.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Web App réalisé pendant la formation",
-    gradient: ["#000066", "#6699FF"],
-    url: "/htmlprojet/helport.html",
-    tech: ["php", "html", "symfony", "javascript", "dockersvg"],
-  },
+
 
   {
     name: "Bibliotheque BienVu",
@@ -131,6 +123,16 @@ export const PROJECTS = [
     gradient: ["#F14658", "#DC2537"],
     url: "/htmlprojet/casino.html",
     tech: ["symfony", "javascript", "nodejs","php","mysql"],
+  },
+
+  {
+    name: "HelpOrt",
+    image: "/projects/helport.webp",
+    blurImage: "/projects/blur/medium-blur.webp",
+    description: "Web App réalisé pendant la formation",
+    gradient: ["#000066", "#6699FF"],
+    url: "/htmlprojet/helport.html",
+    tech: ["php", "html", "symfony", "javascript", "dockersvg"],
   },
 
 ];
