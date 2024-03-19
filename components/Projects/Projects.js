@@ -99,7 +99,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 seq">
               Les projets que j&apos;ai réalisés dans le cadre de stage, de millieu professionel ou
-              personellement.{" "}
+              en CFA.{" "}
             </h2>
           </div>
           <div

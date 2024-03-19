@@ -110,6 +110,15 @@
             mix-blend-mode: difference;
         }
 
+        .image-container img {
+            width: 200px; /* Largeur fixe pour toutes les images */
+            height: 400px; /* Hauteur fixe pour toutes les images */
+            margin-bottom: 10px; /* Espacement en dessous de chaque image */
+            transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition fluide pour l'ombre et la transformation */
+            will-change: box-shadow, transform; /* Optimisation des performances pour l'animation */
+            object-fit: cover; /* Les images couvriront entièrement l'espace disponible */
+        }
+
         .cursorFollower {
             width: 38px; /* Taille augmentée du cercle */
             height: 38px; /* Taille augmentée du cercle */
